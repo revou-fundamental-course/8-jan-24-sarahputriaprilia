@@ -1,0 +1,84 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+div {
+	margin: 10px 0;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="number"] {
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #af0606;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #094d0b;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+    
+	background-color: #580528;
+}
+
+span {
+	font-weight: bold;
+}
+/* css kotak */
+.center-rectangle {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(25, 32, 49);
+    padding: 10px;
+  }
+
+  .align-center {
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+
+  .button-hitung {
+    background-color: #008cba;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button-reset {
+    background-color: orange;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
